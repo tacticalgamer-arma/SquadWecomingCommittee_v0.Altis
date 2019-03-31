@@ -4,7 +4,7 @@
 //Zaros Bay east cache
 [west, "unkTsk1", ["Destroy the weapons cache located on the eastern bank of Zaros Bay. Expect a platoon size strength of enemy infantry patrolling the area and a quick reaction force from the north of light armed vehicles.","Destroy Cache",""], aTargetOne_15, "CREATED", 50, false, "DESTROY", false] call BIS_fnc_taskCreate;
 
-//Zaros Bay west artillery battery - will be created once this battery fires at the players the first time 
+//Zaros Bay west artillery battery - will be created once this battery fires at the players the first time
 unk_zarosBayWestBatteryTask = {
   [west, "UnkTsk2", ["Destroy the artillery battery on the west coast of Zaros Bay.","Destroy Artillery",""], batteryOnePos, "ASSIGNED", 100, false, "DESTROY", false] call BIS_fnc_taskCreate;
 };
@@ -20,3 +20,20 @@ unk_zarosBayWestBatteryTask = {
 
 //Sagoshi Radar
 [west, "tskRadar", ["Disable the enemy Radar that is spotting our air assets.","Disable Radar",""], RadarObjective, "CREATED", 0, false, "interect", false] call BIS_fnc_taskCreate;
+
+//=============================Hedgehog tasks========================
+[
+    west,
+    "hogTsk1",
+    [
+        "Kill an enemy officer surveying the town of Selekano.",
+        "Assasinate officer",
+        ""
+    ],
+    hedgehog_officer,
+    "CREATED",
+    0,
+    false,
+    "kill",
+    false
+] call BIS_fnc_taskCreate;

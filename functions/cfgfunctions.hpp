@@ -1,9 +1,9 @@
 class TG
 {
-	tag = "TG";	
+	tag = "TG";
 	class client
 	{
-		file = "functions\client";				
+		file = "functions\client";
 		class getShortRadio {};
 		class getLongRadio {};
 		class teleportToSL {};
@@ -13,7 +13,7 @@ class TG
 		class farpAction {};
 		class healAllBox {};
 	};
-	
+
 	class server
 	{
 		file = "functions\server";
@@ -25,5 +25,6 @@ class TG
 		class ifAllPlayersDead {};
 		class ambientAirTraffic {};
 		class farpProcessing {};
+        class zenOccupyHouse {};
 	};
 };
