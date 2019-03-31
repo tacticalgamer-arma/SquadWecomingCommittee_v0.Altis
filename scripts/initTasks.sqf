@@ -18,5 +18,8 @@ unk_zarosBayWestBatteryTask = {
 //Drimea Checkpoint
 [west, "unkTsk5", ["Eliminate all enemy at the Drimea checkpoint. Expect a small squad of enemy infantry and static weapons. No QRF is expected.","Clear Checkpoint",""], drimeaCheckpoint, "CREATED", 50, false, "ATTACK", false] call BIS_fnc_taskCreate;
 
+//Makrynisi Island AAA
+[west, "intTsk1", ["Eliminate all AAA emplacements on Makrynisi island. Expect a small patrol defending the guns. No QRF is expected.","Destroy AAA",""], intMakrynisiAAA, "CREATED", 50, false, "DESTROY", false] call BIS_fnc_taskCreate;
+
 //Sagoshi Radar
 [west, "tskRadar", ["Disable the enemy Radar that is spotting our air assets.","Disable Radar",""], RadarObjective, "CREATED", 0, false, "interect", false] call BIS_fnc_taskCreate;
