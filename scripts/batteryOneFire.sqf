@@ -8,7 +8,7 @@ if (!batteryOneHasFired) then {
   batteryOneHasFired = true;
   [] spawn {
     sleep 30;
-	"HQ: Artillery has fired from your west. You are the most likely target! Scramble!! Out." remoteExec ["Hint", 0 , false];
+	"HQ: Artillery has fired from west side of Zaros bay. Most likely target is East Zaros Bay! Scramble!! Out." remoteExec ["Hint", 0 , false];
 	sleep 15;
 	[] call unk_zarosBayWestBatteryTask;
 	cacheOneCounterAttackCommenced = true;
