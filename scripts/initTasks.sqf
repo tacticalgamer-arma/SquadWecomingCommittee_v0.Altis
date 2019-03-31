@@ -10,5 +10,7 @@ unk_zarosBayWestBatteryTask = {
 };
 
 //Vikos Outpost
-[west, "unkTsk3", ["Eliminate all enemy at the hilltop outpost south of Vikos.","Clear Outpost",""], vikosOutpost, "CREATED", 50, false, "ATTACK", false] call BIS_fnc_taskCreate;
+[west, "unkTsk3", ["Eliminate all enemy at the hilltop outpost south of Vikos. Expect a large squad of enemy infantry with static weapons. No QRF is expected.","Clear Outpost",""], vikosOutpost, "CREATED", 50, false, "ATTACK", false] call BIS_fnc_taskCreate;
 
+//Vikos Lookout
+[west, "unkTsk4", ["Eliminate all enemy at the hilltop lookout at the ruins south of Vikos. Expect a small squad of enemy infantry. No QRF is expected.","Clear Lookout",""], vikosLookout, "CREATED", 50, false, "ATTACK", false] call BIS_fnc_taskCreate;
