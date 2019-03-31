@@ -8,3 +8,7 @@
 unk_zarosBayWestBatteryTask = {
   [west, "UnkTsk2", ["Destroy the artillery battery on the west coast of Zaros Bay.","Destroy Artillery",""], batteryOnePos, "ASSIGNED", 100, false, "DESTROY", false] call BIS_fnc_taskCreate;
 };
+
+//Vikos Outpost
+[west, "unkTsk3", ["Eliminate all enemy at the hilltop outpost south of Vikos.","Clear Outpost",""], vikosOutpost, "CREATED", 50, false, "ATTACK", false] call BIS_fnc_taskCreate;
+
