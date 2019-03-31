@@ -1,0 +1,43 @@
+//Functional Carrier by Unkl of www.TacticalGamer.com
+CHANGE LOG
+**********
+
+//Functional Carrier v1.2 (Mar 10)
+DONE - fixed MP issue where FARP action was not being broadcast from server to clients
+
+
+//Functional Carrier Version 1.1
+DONE - clean up documentation as I missed some changes when I put the script init files in the scripts folder **handle = []execVM "FunctionalCarrier\SCRIPTS\initDeckCommander.sqf";**
+DONE - remove the ACE requirement from the mission
+DONE - double check that the pier ladder I used on the aft is a vanilla asset (it was)
+DONE - add in the smallest ammo trucks to available vehicles so they can be used to change dynamic loadouts on attack assets
+DONE - add Deck Commander to any unit that returns true on "serverCommandAvailable #lock" - this is logged in admins or server hosts only - no voted admins
+CANCELLED - simplify the init.sqf code so it is easier for novice mission makers to use (cancelled because maybe this will help learn - you gotta bang your head against the wall to get through sometimes ;)
+
+
+
+//Functional Carrier release Version 1.0
+DONE - Add map to spawnpoint
+CANCELLED - medicalPoint (leave to mission maker)
+DONE - create documentation on how to set up, change vehicles, changes to description.ext for spawn on start and template MenuPosition
+DONE - create graphics 
+DONE - fix repawn vehicles
+DONE - fix checking that the boat launch is clear
+DONE - clean up scripts - turn some to functions
+DONE - test that data link is off to receive targets for the aircraft carrier guns
+DONE - create copy of FARP script for wider dispersion outside of the template (non-TG release)
+DONE - must be able to delete vehicles from deck
+DONE - add data link using the old price variable in each vehicle
+DONE - find a way to restrict Deck Commanders - by calling in the player unit init
+handle = []execVM "FunctionalCarrier\initDeckCommander.sqf";
+
+
+To Do:
+----------
+- use a vanilla artillery on deck but remove fuel so it can not be moved
+- detect if RHSUSAF is running and allow those assets to be used
+- remove vehicles that can not be lifted from the deck if they are intended to do so
+- add a way for Deck Commanders to stow boats without having to travel all the way to the back of the deck
+- add a way for Deck Commanders to view the aft boat area from the Deck Command Station
+- add a sign on the Deck Command Station so it is clearly marked when you arrive there
+
