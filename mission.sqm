@@ -8,18 +8,22 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=498;
+		nextID=529;
+	};
+	class MarkerIDProvider
+	{
+		nextID=2;
 	};
 	class LayerIndexProvider
 	{
-		nextID=3;
+		nextID=4;
 	};
 	class Camera
 	{
-		pos[]={13447.411,325.81253,11891.221};
-		dir[]={0.19976051,-0.90979016,0.3638761};
-		up[]={0.43782866,0.41502213,0.79753345};
-		aside[]={0.87660307,8.0571044e-007,-0.48123884};
+		pos[]={14427.886,118.71105,13095.515};
+		dir[]={-0.69116676,-0.69129962,-0.21083876};
+		up[]={-0.66122186,0.72256231,-0.20170401};
+		aside[]={-0.29178515,-1.2742821e-006,0.95651585};
 	};
 };
 binarizationWanted=0;
@@ -68,13 +72,14 @@ addons[]=
 	"A3_Armor_F_Tank_LT_01",
 	"A3_Static_F_Sams_Radar_System_02",
 	"A3_Boat_F_Beta_Boat_Transport_01",
-	"A3_Structures_F_Mil_Fortification"
+	"A3_Structures_F_Mil_Fortification",
+	"A3_Armor_F_Gamma_APC_Wheeled_03"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=34;
+		items=35;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -313,6 +318,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item34
+		{
+			className="A3_Armor_F_Gamma";
+			name="Arma 3 - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=12189602;
@@ -368,7 +380,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=229;
+		items=251;
 		class Item0
 		{
 			dataType="Group";
@@ -18490,6 +18502,496 @@ class Mission
 			name="intMakrynisiAAA";
 			id=497;
 			type="Logic";
+		};
+		class Item229
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={16657.547,2.45,12294.402};
+			};
+			title="clear base";
+			id=498;
+			atlOffset=-0.00029420853;
+		};
+		class Item230
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={16586.764,11,12795.02};
+			};
+			title="rescue civs";
+			id=499;
+		};
+		class Item231
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={16816.725,20.711,12593.748};
+			};
+			title="rescue civs";
+			id=500;
+			atlOffset=0.73300171;
+		};
+		class Item232
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={16847.523,24.076,12640.402};
+			};
+			title="rescue civs";
+			id=501;
+			atlOffset=0.00051879883;
+		};
+		class Item233
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={16811.119,23.281,12850.474};
+			};
+			title="rescue civs";
+			id=502;
+			atlOffset=2.827795;
+		};
+		class Item234
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={17109.834,15.197,12640.35};
+			};
+			title="rescue civs";
+			id=503;
+			atlOffset=1.0490417e-005;
+		};
+		class Item235
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={16772.133,14.513,12469.489};
+			};
+			title="rescue civs";
+			id=504;
+			atlOffset=1.2388887;
+		};
+		class Item236
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16797.197,23.768761,12671.554};
+						angles[]={0.0026744273,0,0.050623242};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=507;
+					type="I_crew_F";
+					atlOffset=-5.531311e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16797.064,26.37969,12671.561};
+						angles[]={0.0026744273,0,0.050623242};
+					};
+					side="Independent";
+					class Attributes
+					{
+					};
+					id=508;
+					type="I_crew_F";
+					atlOffset=2.6176662;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16797.064,26.37969,12671.561};
+						angles[]={0.0026744273,0,0.050623242};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+					};
+					id=509;
+					type="I_crew_F";
+					atlOffset=2.6176662;
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=507;
+						item1=506;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=508;
+						item1=506;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=509;
+						item1=506;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,0};
+						};
+					};
+				};
+			};
+			id=505;
+			atlOffset=-5.531311e-005;
+		};
+		class Item237
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16797.064,26.378252,12671.511};
+				angles[]={0.0026744273,0,0.050623242};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=506;
+			type="I_APC_Wheeled_03_cannon_F";
+			atlOffset=-5.531311e-005;
+		};
+		class Item238
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16960.361,17.393173,12821.34};
+						angles[]={0.0026529003,0,6.2698507};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=512;
+					type="I_soldier_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16960.361,17.393173,12821.34};
+						angles[]={0.0026529003,0,6.2698507};
+					};
+					side="Independent";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=513;
+					type="I_soldier_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16960.361,17.393173,12821.34};
+						angles[]={0.0026529003,0,6.2698507};
+					};
+					side="Independent";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=514;
+					type="I_soldier_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=512;
+						item1=511;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=513;
+						item1=511;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=514;
+						item1=511;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={1};
+						};
+					};
+				};
+			};
+			id=510;
+		};
+		class Item239
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16960.395,19.84132,12821.297};
+				angles[]={0.0026529003,0,6.2698507};
+			};
+			side="Independent";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=511;
+			type="I_MRAP_03_hmg_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_featureType";
+					expression="_this setFeatureType parseNumber (_value)";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""arifle_Mk20_F"",""FirstAidKit""],[2,10]],[[""30Rnd_556x45_Stanag"",""200Rnd_65x39_cased_Box"",""HandGrenade"",""SmokeShell"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellPurple"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""1Rnd_SmokeOrange_Grenade_shell"",""1Rnd_SmokePurple_Grenade_shell"",""9Rnd_45ACP_Mag""],[16,3,10,4,4,4,4,10,4,4,4,4,12]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item240
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={17421.256,14.633,13150.4};
+			};
+			title="destroyTargets";
+			description="CAS and artillery to hit this base continually to destroy enemy presence while infantry are in Pyrgos.";
+			id=517;
+			atlOffset=0.00018405914;
+		};
+		class Item241
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={17425.166,4.1030002,13837.678};
+			};
+			title="enemySupplyRoute";
+			description="Enemies will resupply from this northern route - Roque";
+			id=518;
+			atlOffset=0.00033998489;
+		};
+		class Item242
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={18515.945,29.462,12936.443};
+			};
+			title="EiRoute";
+			description="EI may trickle in along this route.";
+			id=519;
+			atlOffset=0.00026512146;
+		};
+		class Item243
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={14998.425,17.959999,16532.004};
+			};
+			title="heavyEnemyControl";
+			description="Manpad AA and static emplacements should make this area unapproachable";
+			id=520;
+		};
+		class Item244
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={15155.873,17.909,17265.486};
+			};
+			title="enemySupplyRouteStart";
+			id=521;
+			atlOffset=0.00029945374;
+		};
+		class Item245
+		{
+			dataType="Marker";
+			position[]={14508.044,0,14137.583};
+			name="marker_0";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			a=6000;
+			b=20;
+			id=522;
+			atlOffset=73.797005;
+		};
+		class Item246
+		{
+			dataType="Marker";
+			position[]={14177.072,0,14267.965};
+			name="marker_1";
+			text="Limit Of Advance";
+			type="mil_dot";
+			colorName="ColorRed";
+			id=523;
+			atlOffset=65.897163;
+		};
+		class Item247
+		{
+			dataType="Marker";
+			position[]={18068.512,74.987946,14247.903};
+			name="marker_2";
+			text="Limit Of Advance";
+			type="mil_dot";
+			colorName="ColorRed";
+			id=524;
+			atlOffset=58.52919;
+		};
+		class Item248
+		{
+			dataType="Marker";
+			position[]={9102.1514,118.61157,14247.905};
+			name="marker_3";
+			text="Limit Of Advance";
+			type="mil_dot";
+			colorName="ColorRed";
+			id=525;
+			atlOffset=78.047638;
+		};
+		class Item249
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={16205.759,0,12962.763};
+			};
+			title="Wildcat Reinforcements";
+			description="Enemy Wildcat helos dropping troops to reinforce numbers every 15 minutes if Pyrgos population is less than 20 ei.";
+			id=526;
+			atlOffset=27.614325;
+		};
+		class Item250
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={14294.313,4.369,13044.781};
+			};
+			title="Change to Hack Radar!";
+			description="Hack enemy radar to allow USS Freedom AA to use DataLink  to engage enemy air threats from range.";
+			id=528;
+			atlOffset=0.00013542175;
 		};
 	};
 	class Connections
