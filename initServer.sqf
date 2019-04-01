@@ -58,7 +58,7 @@ _refuelVicsAndCapacities =  [];                                                 
 //this is to spawn ambient air traffic as per functions/server/fn_ambientAirTraffic.sqf	        **
 //You may need to edit this file if you are not using Altis to change the _maxCoordinate size   **
 //                                                                                              **
-_enableAmbientAirTraffic = true;                                          //                    **
+_enableAmbientAirTraffic = false;                                          //                    **
 /*************************************************************************************************/
 
 
@@ -66,12 +66,14 @@ _enableAmbientAirTraffic = true;                                          //    
 
 //ENTER ANY ADDITIONAL CODE YOU NEED BELOW HERE*****************************************************************************
 
+createCenter independent;
 batteryOneAlive = true;
 batteryOne = [batteryOneGun1,batteryOneGun2,batteryOneGun3];
 batteryOneHasFired = false;
 cacheOneCounterAttackCommenced = false;
 
 _initTasks = []execVM "scripts\initTasks.sqf";
+_initParadrops = []execVM "scripts\heloReinforcements\monitorPyrgos.sqf";
 
 //***************************************************************************************************************************
 //DO NOT EDIT BELOW THIS LINE unless you know what your doing ;)
