@@ -5,3 +5,7 @@ Please advise on where you are creating objectives for locations. Please ensure 
 Additionally, Zeus will be enabled on the mission to help keep objectives appropriate. Scripts should be limited. No cut scenes, and all global hints should be written with multiple missions happening at the same time in mind.
 
 Tasks are created in scripts\initTasks.sqf
+
+**Known issue:
+Local host will not spawn with RHS gear. Works on dedicated. Something is holding up the gear saving when testing locally.**
+
