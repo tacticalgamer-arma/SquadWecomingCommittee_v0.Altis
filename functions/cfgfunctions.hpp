@@ -25,5 +25,6 @@ class TG
 		class ifAllPlayersDead {};
 		class ambientAirTraffic {};
 		class farpProcessing {};
+		class zenOccupyHouse {};
 	};
 };

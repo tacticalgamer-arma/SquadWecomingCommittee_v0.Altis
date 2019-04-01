@@ -23,3 +23,20 @@ unk_zarosBayWestBatteryTask = {
 
 //Sagoshi Radar
 [west, "tskRadar", ["Disable the enemy Radar that is spotting our air assets.","Disable Radar",""], RadarObjective, "CREATED", 0, false, "interect", false] call BIS_fnc_taskCreate;
+
+//=============================Hedgehog tasks========================
+[
+    west,
+    "hogTsk1",
+    [
+        "Kill an enemy officer surveying the town of Selekano.",
+        "Assasinate officer",
+        ""
+    ],
+    hedgehog_officer,
+    "CREATED",
+    0,
+    false,
+    "kill",
+    false
+] call BIS_fnc_taskCreate;

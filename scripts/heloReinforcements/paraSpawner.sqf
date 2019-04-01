@@ -16,7 +16,7 @@ _units = units _group;
   [_x, _chute] spawn {
     _unit = _this select 0;
 	_chute = _this select 1;
-	waitUntil {(getPosATL _unit) select 2 < 5};
+	waitUntil {(getPosATL _unit) select 2 < 4};
 	detach _unit;
 	deleteVehicle _chute;
     if (_unit == leader _unit) then {
