@@ -4,7 +4,7 @@ _run = true;
 while {_run} do {
   if (serverCommandAvailable "#lock") then {
     handle = []execVM "FunctionalCarrier\scripts\initDeckCommander.sqf";
-	systemChat "Admin detected, granting Deck Commander...";
+	//systemChat "Admin detected, granting Deck Commander...";
 	_run = false;
   };
   sleep 10;

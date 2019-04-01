@@ -73,7 +73,7 @@ batteryOneHasFired = false;
 cacheOneCounterAttackCommenced = false;
 
 _initTasks = []execVM "scripts\initTasks.sqf";
-_initParadrops = []execVM "scripts\heloReinforcements\monitorPyrgos.sqf";
+
 
 //***************************************************************************************************************************
 //DO NOT EDIT BELOW THIS LINE unless you know what your doing ;)
@@ -138,3 +138,6 @@ if (!is3DEN && isServer && (count allCurators > 0)) then {
 		};
 	};
 };
+
+//*****************************************
+_initParadrops = []execVM "scripts\heloReinforcements\monitorPyrgos.sqf";
