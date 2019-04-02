@@ -1,4 +1,5 @@
 enableSaving [false,false];
+CutScenes = execVM "RTG_Custom_Scripts\CutScenes.sqf";
 
 /******* FUNCTIONAL CARRIER SCRIPT *************************************************************************************
 Copy these lines to your init.sqf file and replace "freedom_new" with the name you put on your carrier in the editor

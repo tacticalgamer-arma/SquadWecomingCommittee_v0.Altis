@@ -22,7 +22,7 @@ unk_zarosBayWestBatteryTask = {
 [west, "intTsk1", ["Eliminate all AAA emplacements on Makrynisi island. Expect a small patrol defending the guns. No QRF is expected.","Destroy AAA",""], intMakrynisiAAA, "CREATED", 50, false, "DESTROY", false] call BIS_fnc_taskCreate;
 
 //Sagoshi Radar
-[west, "tskRadar", ["Disable the enemy Radar that is spotting our air assets.","Disable Radar",""], RadarObjective, "CREATED", 0, false, "interect", false] call BIS_fnc_taskCreate;
+[west, "tskRadar", ["Hack the enemy Radar that is spotting our air assets so we can use it to spot theirs!","Hack Radar",""], RadarObjective, "CREATED", 0, false, "interect", false] call BIS_fnc_taskCreate;
 
 //=============================Hedgehog tasks========================
 [

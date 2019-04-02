@@ -323,3 +323,8 @@ if (_useClassBasedHealAll) then {
 } else {
 	[false] call TG_fnc_healAllBox;
 };
+
+
+waitUntil {(!(call BIS_fnc_isLoading) and (time > 1) and (!isNil "AllReadyPlayers"))};
+AllReadyPlayers = AllReadyPlayers + [player];
+publicVariable "AllReadyPlayers";

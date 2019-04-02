@@ -278,6 +278,8 @@ if (carrierHasAA) then {
   gunSeven setDir 90;
   
   _guns = [gunOne, gunTwo, gunThree, gunFour, gunFive, gunSix, gunSeven];
+  freedomGuns = _guns;
+  publicVariable "freedomGuns";
   //THESE JUMP AROUND SO MUCH WHEN YOU DETATCH THEM THIS NEXT CODE BLOCK TRIES TO STABILIZE THEM - IF THEY BLOW UP THEY SHOULD BE DELETED
   {[_x]spawn {
 			_unit = _this select 0; 

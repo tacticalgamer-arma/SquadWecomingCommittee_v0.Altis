@@ -75,6 +75,12 @@ cacheOneCounterAttackCommenced = false;
 _initTasks = []execVM "scripts\initTasks.sqf";
 
 
+createunits = execVM "RTG_Custom_Scripts\CreateUnits.sqf";
+WinCondition = execVM "RTG_Custom_Scripts\WinCondition.sqf";
+AllReadyPlayers = [];
+publicVariable "AllReadyPlayers";
+
+
 //***************************************************************************************************************************
 //DO NOT EDIT BELOW THIS LINE unless you know what your doing ;)
 //***************************************************************************************************************************
