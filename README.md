@@ -7,5 +7,5 @@ Additionally, Zeus will be enabled on the mission to help keep objectives approp
 Tasks are created in scripts\initTasks.sqf
 
 **Known issue:
-Local host will not spawn with RHS gear. Works on dedicated. Something is holding up the gear saving when testing locally.**
+Needs briefing.
 
