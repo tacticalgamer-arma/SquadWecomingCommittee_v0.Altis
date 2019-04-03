@@ -1,4 +1,5 @@
 Arrows = allMissionObjects "Sign_Arrow_Direction_Pink_F";
+agentIncrementor = 0;
 
 
 serverCutsceneStart = {

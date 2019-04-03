@@ -37,10 +37,11 @@ _agent addEventHandler ["Killed", {
 
 
 myAgents = myAgents + [_agent];
-_newstring = ("Name"+ str(random 1000));
+//_newstring = ("Name"+ str(random 1000));  //removed random names because it could cause an error - Unkl
+_newString = ("Name"+ str(agentIncrementor));
+agentIncrementor = agentIncrementor + 1;
 [_agent, _newstring] remoteExec ["setVehicleVarName",0,true];
-[west,[(str _agent),"RecueCivs"],["Rescue this civilian to the UN field hospital","Civilian",""],_agent,"CREATED",2,false,"heal",true] call BIS_fnc_taskCreate;
-
+[west,[_newString,"RecueCivs"],["Rescue this civilian to the UN field hospital","Civilian",""],_agent,"CREATED",2,false,"heal",true] call BIS_fnc_taskCreate;
 };
 
 [west,["RecueCivs"],["Find and rescue all civilians","Rescue all civilians",""],objNull,"CREATED" ,2,false,"help"] call BIS_fnc_taskCreate;

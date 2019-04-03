@@ -17,6 +17,6 @@ while {_run} do {
 	_heloSpawn = []execVM "scripts\heloReinforcements\heloSpawner.sqf";
   };
   
-  //systemChat format ["There are %1 enemy infantry units within Pyrgos.", _numberOfEiInPyrgos];
-  sleep 600;
+  systemChat format ["There are %1 enemy infantry units within Pyrgos.", _numberOfEiInPyrgos];
+  sleep 120;
 };

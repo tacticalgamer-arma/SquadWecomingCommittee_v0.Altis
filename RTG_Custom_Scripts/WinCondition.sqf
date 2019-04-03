@@ -9,7 +9,7 @@ if (count _agentsToDelete > 0) then {
 		myAgents = myAgents - [_x];
 		moveOut _x;  
 		deleteVehicle _x;
-		[(str _x),"SUCCEEDED",false] call BIS_fnc_taskSetState;
+		[(str _x),"SUCCEEDED",true] call BIS_fnc_taskSetState;
 		_WoundedPlaces = (synchronizedObjects Bodybags);
 		_WoundedPlaces sort true;
 		_weretoputwounded = (_WoundedPlaces select 0);
