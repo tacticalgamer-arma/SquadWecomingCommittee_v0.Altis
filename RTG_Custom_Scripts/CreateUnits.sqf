@@ -32,7 +32,7 @@ _agent addEventHandler ["AnimChanged", {
 
 _agent addEventHandler ["Killed", {
 	params ["_unit", "_killer", "_instigator", "_useEffects"];
-	[] spawn ServerPlayCutLossCivDed;
+	[(str _unit), "FAILED"] call BIS_fnc_taskSetState;
 }];
 
 
