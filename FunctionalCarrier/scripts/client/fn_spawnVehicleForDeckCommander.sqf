@@ -31,7 +31,9 @@ if (_dataLink > 0) then {
   _vehicle setVehicleReportOwnPosition true;
   _vehicle setVehicleReceiveRemoteTargets true;
 };
-
+if (_className == "B_G_Offroad_01_repair_F") then {
+  [_vehicle, 60] call ace_refuel_fnc_makeSource;
+};
 
 _vehicleClass = getText(configFile >> "CfgVehicles" >> _className >> "vehicleClass");
 

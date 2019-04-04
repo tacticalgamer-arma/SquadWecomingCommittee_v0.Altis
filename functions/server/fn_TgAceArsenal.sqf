@@ -57,30 +57,29 @@ _helmets = ["rhsusf_ach_bare_des_headset","rhsusf_ach_bare_des_headset_ess","rhs
            "rhsusf_hgu56p_visor_mask_Empire_black","rhsusf_hgu56p_green","rhsusf_hgu56p_mask_green","rhsusf_hgu56p_visor_green","rhsusf_hgu56p_visor_mask_green","rhsusf_hgu56p",
            "rhsusf_hgu56p_mask","rhsusf_hgu56p_mask_skull","rhsusf_hgu56p_visor","rhsusf_hgu56p_visor_mask","rhsusf_hgu56p_visor_mask_skull","rhsusf_mich_bare",
            "rhsusf_mich_bare_norotos_arc_alt_headset","rhsusf_mich_bare_norotos_arc_headset","rhsusf_mich_bare_norotos_headset","rhsusf_mich_bare_tan","rhsusf_mich_bare_alt_tan", 
-           "rhsusf_mich_bare_norotos_alt_tan_headset","rhsusf_mich_bare_norotos_arc_alt_tan_headset","rhsusf_mich_bare_norotos_tan_headset"];
+           "rhsusf_mich_bare_norotos_alt_tan_headset","rhsusf_mich_bare_norotos_arc_alt_tan_headset","rhsusf_mich_bare_norotos_tan_headset","RHS_jetpilot_usaf"];
 
-_uniforms = ["rhs_uniform_g3_m81","rhs_uniform_g3_mc","rhs_uniform_g3_rgr","rhs_uniform_g3_tan","rhs_uniform_cu_ocp_101st",					"rhs_uniform_cu_ocp_10th","rhs_uniform_cu_ocp"];
+_uniforms = ["rhs_uniform_g3_m81","rhs_uniform_g3_mc","rhs_uniform_g3_rgr","rhs_uniform_g3_tan","rhs_uniform_cu_ocp_101st",					"rhs_uniform_cu_ocp_10th","rhs_uniform_cu_ocp","U_B_HeliPilotCoveralls"];
 
 _vests = ["rhsusf_iotv_ocp_Grenadier","rhsusf_iotv_ocp_Medic","rhsusf_iotv_ocp_Repair","rhsusf_iotv_ocp_Rifleman","rhsusf_iotv_ocp_SAW",		"rhsusf_iotv_ocp_Squadleader",
          "rhsusf_iotv_ocp_Teamleader","rhsusf_mbav_grenadier","rhsusf_mbav_mg","rhsusf_mbav_medic","rhsusf_mbav_rifleman","rhsusf_spcs_ocp_crewman","rhsusf_spcs_ocp_grenadier",
          "rhsusf_spcs_ocp_machinegunner","rhsusf_spcs_ocp_medic","rhsusf_spcs_ocp","rhsusf_spcs_ocp_rifleman_alt","rhsusf_spcs_ocp_rifleman","rhsusf_spcs_ocp_saw",
          "rhsusf_spcs_ocp_sniper","rhsusf_spcs_ocp_squadleader","rhsusf_spcs_ocp_teamleader_alt","rhsusf_spcs_ocp_teamleader"];
 
-_backpacks = ["rhs_TOW_Tripod_Bag","rhs_Tow_Gun_Bag","B_UAV_01_backpack_F","ACE_TacticalLadder_Pack","tf_rt1523g_rhs","tf_rt1523g_green",			"tf_rt1523g_black","tf_rt1523g_big_rhs",
-             "tf_rt1523g_big","tf_rt1523g","RHS_Mk19_Tripod_Bag","RHS_Mk19_Gun_Bag","rhs_M252_Bipod_Bag","rhs_M252_Gun_Bag","RHS_M2_Tripod_Bag","RHS_M2_Gun_Bag","RHS_M2_MiniTripod_Bag",
+_backpacks = 		     ["rhs_TOW_Tripod_Bag","rhs_Tow_Gun_Bag","B_UAV_01_backpack_F","ACE_TacticalLadder_Pack","RHS_Mk19_Tripod_Bag","RHS_Mk19_Gun_Bag","rhs_M252_Bipod_Bag","rhs_M252_Gun_Bag","RHS_M2_Tripod_Bag","RHS_M2_Gun_Bag","RHS_M2_MiniTripod_Bag",
              "B_Kitbag_rgr","B_Kitbag_cbr","B_Mortar_01_weapon_F","B_Mortar_01_support_F","rhsusf_falconii","rhsusf_falconii_coy","rhsusf_falconii_mc",
-             "rhsusf_assault_eagleaiii_ocp","rhsusf_assault_eagleaiii_coy","B_Carryall_oli","B_Carryall_cbr","B_Carryall_khk","tf_anprc155","tf_anprc155_coyote",
+             "rhsusf_assault_eagleaiii_ocp","rhsusf_assault_eagleaiii_coy","B_Carryall_oli","B_Carryall_cbr","B_Carryall_khk",
              "B_AssaultPack_cbr","B_AssaultPack_rgr", "B_PARACHUTE"];
 
 _glasses = ["rhsusf_shemagh_grn","rhsusf_shemagh_od","rhsusf_shemagh_tan","rhsusf_shemagh_white"];
 
-_nvgs = ["rhsusf_ANPVS_14","rhsusf_ANPVS_15","ACE_NVG_Gen1","ACE_NVG_Gen2","NVGoggles_OPFOR","NVGoggles","NVGoggles_INDEP","ACE_NVG_Gen4",			"ACE_NVG_Wide"];
+_nvgs = ["rhsusf_ANPVS_14","rhsusf_ANPVS_15","ACE_NVG_Gen1","ACE_NVG_Gen2","NVGoggles_OPFOR","NVGoggles","NVGoggles_INDEP","ACE_NVG_Gen4", "ACE_NVG_Wide"];
 
 _binocs = ["rhsusf_bino_lrf_Vector21","ACE_Yardage450","ACE_Vector","ACE_VectorDay","Rangefinder","rhsusf_bino_m24_ARD",
            "rhsusf_bino_m24","rhsusf_bino_lerca_1200_tan","rhsusf_bino_lerca_1200_black", "Laserdesignator","Laserdesignator_03"];
 
 //This array holds maps, watches, ACE medical items, radios, GPS, terminals etc...
-_miscItems = ["tf_anprc152","ItemRadio","tf_microdagr","ItemWatch","ACE_Altimeter","ItemGPS","B_UavTerminal","ACE_wirecutter",				"ACE_UAVBattery","ToolKit",
+_miscItems = ["ItemRadio","ItemWatch","ACE_Altimeter","ItemGPS","B_UavTerminal","ACE_wirecutter",				"ACE_UAVBattery","ToolKit",
               "ACE_morphine","MineDetector","ACE_microDAGR","ACE_MapTools","ACE_Flashlight_XL50","ACE_M26_Clacker","ACE_Kestrel4500",
              "ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_Flashlight_MX991","ACE_epinephrine","ACE_EntrenchingTool","ACE_EarPlugs","ACE_DefusalKit","ACE_DAGR",
              "ACE_Chemlight_Shield","ACE_CableTie","ACE_bodyBag","ACE_SpraypaintBlue","ACE_bloodIV","ACE_bloodIV_500","ACE_fieldDressing", 

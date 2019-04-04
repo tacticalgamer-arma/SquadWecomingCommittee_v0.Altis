@@ -11,7 +11,7 @@
 _enableACEarsenals = true;              //BOOLEAN
                                                                                            //**
 //if _enableACEarsenals is FALSE then _boxesToLoad = [];                                     **
-_boxesToLoad = [ammoBox];   //edit this line
+_boxesToLoad = [ammoBox, ammoBox_1, ammoBox_2, ammoBox_3];   //edit this line
 /**********************************************************************************************/
 
 
@@ -44,7 +44,7 @@ _useMissionTimer = false;
 //SET REFUEL VEHICLES THAT WILL BE REFILLABLE FROM THE FARP *************************************
 //this is only necessary because ACE doesn't store a vehicles capacity easily that I've found  **
 //                                                                                             **
-_enableRefillingRefuelVics = true;
+_enableRefillingRefuelVics = false;
 //array of arrays in the following format: [units OBJECT, fuelCapacityInLitres NUMBER]       //**
 //                                                                                           //**
 //if you set _enableRefillingRefuelVics to be false then make _refuelVicsAndCapacities to be = [];
