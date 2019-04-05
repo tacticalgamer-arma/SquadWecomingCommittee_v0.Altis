@@ -74,7 +74,7 @@ _heloList = [
 				["RHS_UH60M_ESSS",1],
 				["RHS_UH60M_ESSS2",1],
 				["RHS_UH60M2",1],
-				["RHS_UH60M_MEV2,1],
+				["RHS_UH60M_MEV2",1],
 				["RHS_UH60M_MEV",1],
 				
 				["RHS_CH_47F_light",1],
