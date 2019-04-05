@@ -33,6 +33,7 @@ pierLadder attachTo [ac, [0, 189, .72]];
 pierLadder setDir 180;
 spawnedObjects pushBack pierLadder;
 publicVariable "pierLadder";
+[pierLadder, [format ["<t size='1.5' shadow='2' color='#00ffff'>Climb To Boat Deck</t>"], {(_this select 1) setPosASL (getPosASL boatDeckTeleportTo);}]] remoteExec ["addAction", 0, true];
 //          LOWER BACK DECK TELEPORTER
 boatDeckTeleporter = "Land_InfoStand_V2_F" createVehicle (getPosASL ac);
 boatDeckTeleporter setObjectTextureGlobal [0, "FunctionalCarrier\Pics\backToDeck.paa"];

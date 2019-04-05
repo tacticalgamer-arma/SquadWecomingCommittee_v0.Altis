@@ -83,7 +83,7 @@ _miscItems = ["ItemRadio","ItemWatch","ACE_Altimeter","ItemGPS","B_UavTerminal",
               "ACE_morphine","MineDetector","ACE_microDAGR","ACE_MapTools","ACE_Flashlight_XL50","ACE_M26_Clacker","ACE_Kestrel4500",
              "ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_Flashlight_MX991","ACE_epinephrine","ACE_EntrenchingTool","ACE_EarPlugs","ACE_DefusalKit","ACE_DAGR",
              "ACE_Chemlight_Shield","ACE_CableTie","ACE_bodyBag","ACE_SpraypaintBlue","ACE_bloodIV","ACE_bloodIV_500","ACE_fieldDressing", 
-             "ItemCompass","ItemMap", "ACE_ATragMX","ACE_RangeTable_82mm","ACE_DAGR","ACE_Kestrel4500","ACE_microDAGR","ACE_RangeCard","ACE_Tripod","ACE_SpottingScope"];
+             "ItemCompass","ItemMap", "ACE_ATragMX","ACE_RangeTable_82mm","ACE_DAGR","ACE_Kestrel4500","ACE_microDAGR","ACE_RangeCard","ACE_Tripod","ACE_SpottingScope","ACE_rope36","ACE_rope12"];
 
 //This array hols the grenades and stachels and the simiar items
 _throwablesAndPlaceables = ["ACE_M14","rhs_mag_an_m8hc","ACE_Chemlight_HiOrange","ACE_Chemlight_HiRed","ACE_Chemlight_HiWhite",							"ACE_Chemlight_HiYellow","ACE_Chemlight_IR","ACE_Chemlight_Orange",
