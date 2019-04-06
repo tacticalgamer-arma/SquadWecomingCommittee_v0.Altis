@@ -1,7 +1,15 @@
 //note the order in which you list things is upside down as to how it will show in the briefing on the map screen
 
 player createDiaryRecord["Diary", ["Credits", 
-"THIS MISSION is by  YOU.<br/>
+"Squad Welcoming Committe is by a number of TacticalGamer.com A3 editors.<br/>
+Contributions by:<br/>
+Intel64SideGamer<br/>
+Woesterudolf<br/>
+hedgehog<br/>
+Roque_THE_GAMER<br/>
+sturdyguns<br/>
+FireforEffect<br/>
+Unkl<br/><br/>
 *************************<br/>
 <br/>
 CH View Distance by Champ-1<br/>
@@ -86,63 +94,66 @@ Long Range - 480 mhz"]];
 player createDiaryRecord["Diary", ["FARP",
 "Vehicles and mobile support vehicles may also be repaired and reset to full capacity by driving them into the FORWARD AMMUNITION and REPAIR POINT or FARP 20m circle and then using the ACE Interaction to REPAIR ALL.<br/>
 <br/>
-Fuel and ammunition trucks should also be refilled with cargo at the FARP.<br/>
-<br/>
 Custom munition set ups for air vehicles (pylons) are not supported by the FARP script."]];
 
-
-player createDiaryRecord["Diary", ["MAP MARKER SYNTAX",
-"DELETE ME<br/>
-This is an example of how you can link map markers in your briefing. You can get the <marker name = MARKERNAME>thing </marker> here."]];
 
 
 player createDiaryRecord["Diary", ["WIN/LOSE",
 "Info on the win or lose conditions of the mission.<br/>
 <br/>
-WIN by completing all objectives within the time limit.<br/>
+WIN by gaining control of the southern limbs of Altis for a land assault and rescuing the civilians in Pyrgos.<br/>
 <br/>
-LOSE by not completing your objectives before an hour and 15 minutes.<br/>
-<br/>
-LOSE by having all players killed with no one with respawn tickets left."]];
+LOSE by not completing these objectives.<br/>
+"]];
 
 
 player createDiaryRecord["Diary", ["CIVILIANS",
-"Intel on the civilian situation in the area of operations."]];
+"The only civilians we know of that didn't retreat to the far north of Altis are injured within Pyrgos."]];
 
 
 player createDiaryRecord["Diary", ["WEATHER and TIME",
-"Info on the time and expected conditions in the area of operations."]];
+"The weather is expected to be clear and this operation will be conducted at mid-afternoon."]];
 
 
 player createDiaryRecord["Diary", ["SUPPORTS AND SUSTAINMENT",
 "SUPPORTS<br/>
-Info on additional supports such as artillery or CAS.<br/>
-<br/>
+CAS can be available using helos and planes from the USS Freedom.<br/><br/>
+ARTILLERY<br/>
+Artillery support is provided by one M119 gun from the deck of the carrier. Resupply can be granted by Deck Commander creating a M117 ammunition vehicle for the deck.
+<br/><br/>
 MEDICAL<br/>
-How medicals system will work.<br/>
+There is one medical station within the interior by the spawn area for full healing.<br/>
 <br/>
 RESUPPLY<br/>
-How resupply is available."]];
+Resupply will be handled by the Deck Commander issuing the appropriate assests and is also available for vehicles at the FARP on the deck."]];
 
 
 player createDiaryRecord["Diary", ["EXECUTION",
-"At leaders discretion.<br/>
-<br/>
-Alternatively, you may indicate specific pre-planned details on mission execution."]];
+"At leaders discretion."]];
 
 
 player createDiaryRecord["Diary", ["FRIENDLY FORCES",
-"Friendly troops and disposition."]];
+"The USS Freedom has arrived in the southern most entrance to the Gulf of Pyrgos. It has artillery capability plus a wide array of land, air and sea vehicles it can deploy.<br/><br/>
+
+There are going to be a full platoon of conventional infantry plus the attachments of Engineer, UAV Operator, and JTAC.<br/><br/>
+
+Air operations will be controlled by the Deck Commander who is also responsible to allocate space and time on the deck for staging operations. These operations may include loading vehicles into cargo planes, sling loading vehicles, infantry to pack their land vehicles with supplies, repairs, and take off/landing space for aircraft."]];
 
 
 player createDiaryRecord["Diary", ["ENEMY FORCES",
-"Intel on the enemy situation."]];
+"There are only scattered forces in the southern island. There is a known special weapons cache, a radar emplacement, an anti-aircraft emplacement, a roadblock on a chokepoint, an enemy officer in Selanko, several outposts and lookout positions and a heavy armour depot on the eastern side of Pyrgos.<br/><br/>
+
+Further to the north the enemy have a heavy presence we do not want to engage until we control the south side of the island. They have major amounts of AA at the main airfield.<br/><br/>
+
+At Pyrgos expect enemy reinforcements of light attack vehicles to tanks and paratroopers."]];
 
 
 player createDiaryRecord["Diary", ["MISSION",
-"Description of what the mission goals are."]];
+"Seize control of the Pyrgos Gulf and the southern limbs of the island to prepare for a future assault northward. Gain control of the air on the south side of the island and rescue the civilians in Pyrgos.<br/><br/>
+
+Check the tasks for intel and details for each."]];
 
 
 player createDiaryRecord["Diary", ["SITUATION",
- "Description of back story."]];
+ "Roque elements of the AAF have seized Altis as a staging ground for operations. They have full control of the <marker name = mainAirfield>MAIN AIRFIELD</marker> on the island and there are reports of many wounded civilians in <marker name = pyrgos>PYRGOS</marker>."]];
  

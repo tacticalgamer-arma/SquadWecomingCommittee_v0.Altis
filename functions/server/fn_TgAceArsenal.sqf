@@ -10,7 +10,7 @@ _weapons = 	["rhs_weap_hk416d10_m320","rhs_weap_hk416d10_LMT","rhs_weap_hk416d10
 			"rhs_weap_m249_pip_L","rhs_weap_m249_pip_S","rhs_weap_m27iar","rhs_weap_m27iar_grip","rhs_weap_m4a1_blockII",		"rhs_weap_m4a1_blockII_bk","rhs_weap_m4a1_blockII_M203_bk","rhs_weap_m4a1_blockII_d",
 			"rhs_weap_m4a1_blockII_M203_d","rhs_weap_m4a1_blockII_M203","rhs_weap_m4a1_m320","rhs_weap_M590_8RD","rhs_weap_M590_5RD","rhs_weap_mk18_bk","rhs_weap_mk18_d","rhs_weap_mk18_m320",
             "rhs_weap_mk18_KAC_d","rhs_weap_mk18_KAC_bk","srifle_EBR_F","rhs_weap_m4a1_m203s_d","rhs_weap_m4a1","rhs_weap_m4a1_d","rhs_weap_m4a1_m203","rhs_weap_m4a1_m203s","rhs_weap_m4a1_blockII_KAC_d",
-            "rhs_weap_m4a1_blockII_KAC_bk","rhs_weap_m249_pip_S_para","rhs_weap_m249_pip_L_para","rhs_weap_m14ebrri", "rhs_weap_sr25","rhs_weap_sr25_d"];
+            "rhs_weap_m4a1_blockII_KAC_bk","rhs_weap_m249_pip_S_para","rhs_weap_m249_pip_L_para","rhs_weap_m14ebrri", "rhs_weap_sr25","rhs_weap_sr25_d","rhsusf_weap_MP7A2"];
 
 _magazines =	["rhs_mag_M441_HE","rhs_mag_M433_HEDP","rhs_mag_M397_HET","ACE_HuntIR_M203","rhs_mag_m4009","rhs_mag_maaws_HEAT",				"rhs_mag_maaws_ILLUM","rhs_mag_maaws_HEDP",
 				"rhs_mag_maaws_SMOKE","rhs_mag_maaws_HE","Laserbatteries","rhs_LaserMag","rhs_LaserFCSMag","LOP_LaserMag","rhsusf_8Rnd_Slug","rhsusf_8Rnd_00Buck","rhsusf_5Rnd_Slug",
@@ -29,7 +29,7 @@ _magazines =	["rhs_mag_M441_HE","rhs_mag_M433_HEDP","rhs_mag_M397_HET","ACE_Hunt
 				"rhs_mag_100Rnd_556x45_Mk262_cmag", "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow",
 				"rhsusf_mag_7x45acp_MHP", "rhsusf_50Rnd_762x51", "rhsusf_50Rnd_762x51_m61_ap", "rhsusf_100Rnd_762x51_m62_tracer", "rhsusf_100Rnd_762x51_m80a1epr", "rhsusf_100Rnd_762x51",
 				"rhsusf_100Rnd_762x51_m61_ap", "rhsusf_50Rnd_762x51_m62_tracer", "ACE_20Rnd_762x51_Mag_Tracer_Dim", "ACE_20Rnd_762x51_Mk316_Mod_0_Mag", "ACE_20Rnd_762x51_M118LR_Mag",
-				"ACE_20Rnd_762x51_Mk319_Mod_0_Mag", "ACE_20Rnd_762x51_M993_AP_Mag", "ACE_20Rnd_762x51_Mag_SD"];
+				"ACE_20Rnd_762x51_Mk319_Mod_0_Mag", "ACE_20Rnd_762x51_M993_AP_Mag", "ACE_20Rnd_762x51_Mag_SD","rhsusf_mag_40Rnd_46x30_FMJ"];
 
 _launchers = ["rhs_weap_m72a7","rhs_weap_maaws","rhs_weap_M136","rhs_weap_M136_hedp"];
 
@@ -57,7 +57,7 @@ _helmets = ["rhsusf_ach_bare_des_headset","rhsusf_ach_bare_des_headset_ess","rhs
            "rhsusf_hgu56p_visor_mask_Empire_black","rhsusf_hgu56p_green","rhsusf_hgu56p_mask_green","rhsusf_hgu56p_visor_green","rhsusf_hgu56p_visor_mask_green","rhsusf_hgu56p",
            "rhsusf_hgu56p_mask","rhsusf_hgu56p_mask_skull","rhsusf_hgu56p_visor","rhsusf_hgu56p_visor_mask","rhsusf_hgu56p_visor_mask_skull","rhsusf_mich_bare",
            "rhsusf_mich_bare_norotos_arc_alt_headset","rhsusf_mich_bare_norotos_arc_headset","rhsusf_mich_bare_norotos_headset","rhsusf_mich_bare_tan","rhsusf_mich_bare_alt_tan", 
-           "rhsusf_mich_bare_norotos_alt_tan_headset","rhsusf_mich_bare_norotos_arc_alt_tan_headset","rhsusf_mich_bare_norotos_tan_headset","RHS_jetpilot_usaf"];
+           "rhsusf_mich_bare_norotos_alt_tan_headset","rhsusf_mich_bare_norotos_arc_alt_tan_headset","rhsusf_mich_bare_norotos_tan_headset","RHS_jetpilot_usaf","rhsusf_ihadss"];
 
 _uniforms = ["rhs_uniform_g3_m81","rhs_uniform_g3_mc","rhs_uniform_g3_rgr","rhs_uniform_g3_tan","rhs_uniform_cu_ocp_101st",					"rhs_uniform_cu_ocp_10th","rhs_uniform_cu_ocp","U_B_HeliPilotCoveralls"];
 

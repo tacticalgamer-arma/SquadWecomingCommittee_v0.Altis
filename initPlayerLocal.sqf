@@ -144,7 +144,7 @@ _playersWillRespawnOnStart = true;
 //TRUE will allow the LAW medical boxes to have heal all actions otherwise                    **
 // ... you can add this function by putting "this setVariable ["isHealingBox", TRUE, TRUE];"  **
 // ... to any object to make it a Heal All object                                             **
-_useClassBasedHealAll = false; //default is FALSE
+_useClassBasedHealAll = true; //default is FALSE
 /***********************************************************************************************/
 
 //END OF EDITABLE MISSION MAKER VARIABLES
