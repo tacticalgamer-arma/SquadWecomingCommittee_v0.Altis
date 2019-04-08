@@ -12,7 +12,7 @@ if (isNil {ac}) then {
 
 //MAP AT SPAWN
 spawnMap = "SignAd_Sponsor_F" createVehicle (getPosASL ac);
-spawnMap setObjectTexture [0,"functionalcarrier\pics\functionalInGame_map.paa"];
+[spawnMap, [0,"functionalcarrier\pics\functionalInGame_map.paa"]] remoteExec ["setObjectTexture", 0, true];
 spawnMap attachTo [ac, [-26.6, 106, 24.2]]; 
 spawnmap setdir 90;
 

@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1168;
+		nextID=1169;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=39;
+		nextID=42;
 	};
 	class Camera
 	{
-		pos[]={16426.002,63.911095,6360.5562};
-		dir[]={-0.15082435,-0.72978324,0.66685659};
-		up[]={-0.16099177,0.68366921,0.71180665};
-		aside[]={0.97537571,-1.6287231e-007,0.22060284};
+		pos[]={11137.027,45.587521,9534.3945};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -29351,6 +29351,7 @@ class Mission
 				};
 			};
 			id=918;
+			atlOffset=1.5258789e-005;
 		};
 		class Item351
 		{
@@ -29371,6 +29372,7 @@ class Mission
 			};
 			id=921;
 			type="I_LT_01_AA_F";
+			atlOffset=1.5258789e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -29812,10 +29814,9 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16391.26,24.420557,6430.3286};
-				angles[]={-0,2.6711531,0};
+				angles[]={0,2.6711531,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="call{[this,false] call ace_dragging_fnc_setDraggable; [this, false] call ace_dragging_fnc_setCarryable;}";
@@ -29823,6 +29824,7 @@ class Mission
 			};
 			id=965;
 			type="B_supplyCrate_F";
+			atlOffset=188.59412;
 			class CustomAttributes
 			{
 				class Attribute0

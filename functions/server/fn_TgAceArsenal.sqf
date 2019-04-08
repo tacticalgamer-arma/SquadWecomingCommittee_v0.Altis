@@ -88,7 +88,7 @@ _miscItems = ["ItemRadio","ItemWatch","ACE_Altimeter","ItemGPS","B_UavTerminal",
 //This array hols the grenades and stachels and the simiar items
 _throwablesAndPlaceables = ["ACE_M14","rhs_mag_an_m8hc","ACE_Chemlight_HiOrange","ACE_Chemlight_HiRed","ACE_Chemlight_HiWhite",							"ACE_Chemlight_HiYellow","ACE_Chemlight_IR","ACE_Chemlight_Orange",
                            "ACE_Chemlight_White","B_IR_Grenade","ACE_HandFlare_Green","ACE_HandFlare_Red","ACE_HandFlare_White","ACE_HandFlare_Yellow","rhs_mag_m18_green","rhs_mag_m18_purple",
-                           "rhs_mag_m18_red","rhs_mag_m18_yellow","HandGrenade","ACE_M84","DemoCharge_Remote_Mag","SatchelCharge_Remote_Mag","ACE_VMM3","ACE_VMH3"];
+                           "rhs_mag_m18_red","rhs_mag_m18_yellow","HandGrenade","ACE_M84","DemoCharge_Remote_Mag","SatchelCharge_Remote_Mag","ACE_VMM3","ACE_VMH3","rhsusf_m112_mag","rhsusf_m112x4_mag","ATMine_Range_Mag","ClaymoreDirectionalMine_Remote_Mag","APERSBoundingMine_Range_Mag","SLAMDirectionalMine_Wire_Mag","APERSTripMine_Wire_Mag","ACE_FlareTripMine_Mag","APERSMine_Range_Mag"];
 
 //------------------------------------------------------Combining all the arrays into one for the arsenal loading---------------------------------------------------------------------------------
 _itemsToLoad = _weapons + _magazines + _launchers + _pitols + _weaponAttachments + _helmets + _uniforms + _vests + _backpacks + _glasses + _nvgs + _binocs + _miscItems + _throwablesAndPlaceables;
