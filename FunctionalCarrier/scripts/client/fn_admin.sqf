@@ -1,5 +1,6 @@
 //function by Unkl of www.TacticalGamer.com
 //to watch if player logs in as admin and then give them Deck Commander
+if (allPlayersAreDeckCommanders) exitWith {systemChat "All players are deck commanders.";};
 _run = true;
 while {_run} do {
   if (serverCommandAvailable "#lock") then {

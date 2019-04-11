@@ -19,13 +19,13 @@ ac = freedom_new;
 //OPTIONAL FEATURES TURN ON OR OFF WITH TRUE/FALSE
 artilleryOnDeck = TRUE; 				//will place RHS m119 gun on the deck
 carrierHasAA = TRUE; 					//will place AA guns on the carrier (will turn dataLink off so they are not over powered)
-allPlayersAreDeckCommanders = FALSE;	//will allow all players to spawn in any assets and removed them from the deck
+allPlayersAreDeckCommanders = false;	//will allow all players to spawn in any assets and removed them from the deck
 useRespawnVehicles = TRUE; 				//will make medical vehicles repawn positions
 farpOnDeck = TRUE; 						//will place a Forward Ammunition and Repair Point on the deck for reloads, refuel and repairs
 
 
 //*******************************************************DO NOT EDIT BELOW HERE****************************************************
-
+publicVariable "allPlayersAreDeckCommanders";
 if (isServer) then {[]execVM "FunctionalCarrier\scripts\initFunctionalCarrierServer.sqf"; publicVariable "useRespawnVehicles";};
 if (allPlayersAreDeckCommanders) then {
   if (hasInterface) then {[]execVM "FunctionalCarrier\scripts\initDeckCommander.sqf";};

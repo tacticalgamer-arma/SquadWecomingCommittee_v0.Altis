@@ -1,7 +1,7 @@
 //note the order in which you list things is upside down as to how it will show in the briefing on the map screen
 
 player createDiaryRecord["Diary", ["Credits", 
-"Squad Welcoming Committe is by a number of TacticalGamer.com A3 editors.<br/>
+"Squad Welcoming Committee is by a number of TacticalGamer.com A3 editors.<br/>
 Contributions by:<br/>
 Intel64SideGamer<br/>
 Woesterudolf<br/>

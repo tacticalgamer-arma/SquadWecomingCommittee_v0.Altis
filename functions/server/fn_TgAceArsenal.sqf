@@ -57,9 +57,9 @@ _helmets = ["rhsusf_ach_bare_des_headset","rhsusf_ach_bare_des_headset_ess","rhs
            "rhsusf_hgu56p_visor_mask_Empire_black","rhsusf_hgu56p_green","rhsusf_hgu56p_mask_green","rhsusf_hgu56p_visor_green","rhsusf_hgu56p_visor_mask_green","rhsusf_hgu56p",
            "rhsusf_hgu56p_mask","rhsusf_hgu56p_mask_skull","rhsusf_hgu56p_visor","rhsusf_hgu56p_visor_mask","rhsusf_hgu56p_visor_mask_skull","rhsusf_mich_bare",
            "rhsusf_mich_bare_norotos_arc_alt_headset","rhsusf_mich_bare_norotos_arc_headset","rhsusf_mich_bare_norotos_headset","rhsusf_mich_bare_tan","rhsusf_mich_bare_alt_tan", 
-           "rhsusf_mich_bare_norotos_alt_tan_headset","rhsusf_mich_bare_norotos_arc_alt_tan_headset","rhsusf_mich_bare_norotos_tan_headset","RHS_jetpilot_usaf","rhsusf_ihadss"];
+           "rhsusf_mich_bare_norotos_alt_tan_headset","rhsusf_mich_bare_norotos_arc_alt_tan_headset","rhsusf_mich_bare_norotos_tan_headset","RHS_jetpilot_usaf","rhsusf_ihadss","H_pilotHelmetFighter_B"];
 
-_uniforms = ["rhs_uniform_g3_m81","rhs_uniform_g3_mc","rhs_uniform_g3_rgr","rhs_uniform_g3_tan","rhs_uniform_cu_ocp_101st",					"rhs_uniform_cu_ocp_10th","rhs_uniform_cu_ocp","U_B_HeliPilotCoveralls"];
+_uniforms = ["rhs_uniform_g3_m81","rhs_uniform_g3_mc","rhs_uniform_g3_rgr","rhs_uniform_g3_tan","rhs_uniform_cu_ocp_101st",					"rhs_uniform_cu_ocp_10th","rhs_uniform_cu_ocp","U_B_HeliPilotCoveralls","U_B_PilotCoveralls"];
 
 _vests = ["rhsusf_iotv_ocp_Grenadier","rhsusf_iotv_ocp_Medic","rhsusf_iotv_ocp_Repair","rhsusf_iotv_ocp_Rifleman","rhsusf_iotv_ocp_SAW",		"rhsusf_iotv_ocp_Squadleader",
          "rhsusf_iotv_ocp_Teamleader","rhsusf_mbav_grenadier","rhsusf_mbav_mg","rhsusf_mbav_medic","rhsusf_mbav_rifleman","rhsusf_spcs_ocp_crewman","rhsusf_spcs_ocp_grenadier",
