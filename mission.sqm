@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1173;
+		nextID=1181;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=48;
+		nextID=54;
 	};
 	class Camera
 	{
-		pos[]={11145.195,78.625832,9511.9834};
-		dir[]={0.59545487,-0.8012538,-0.058623563};
-		up[]={0.7973969,0.59832788,-0.078505106};
-		aside[]={-0.097978823,3.3900142e-007,-0.99519295};
+		pos[]={16426.357,27.408619,6404.2241};
+		dir[]={-0.83469075,-0.44269481,0.32788125};
+		up[]={-0.41213685,0.89663815,0.1618942};
+		aside[]={0.36565498,2.3981556e-007,0.93085116};
 	};
 };
 binarizationWanted=0;
@@ -113,13 +113,15 @@ addons[]=
 	"rhsusf_sounds",
 	"A3_Modules_F_Curator_Misc",
 	"A3_Air_F_Jets_Plane_Fighter_04",
-	"A3_Air_F_Orange_UAV_06"
+	"A3_Air_F_Orange_UAV_06",
+	"A3_Supplies_F_Heli_Slingload",
+	"ace_rearm"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=60;
+		items=62;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -539,6 +541,20 @@ class AddonsMetaData
 			name="Arma 3 Orange - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item60
+		{
+			className="A3_Supplies_F_Heli";
+			name="Arma 3 Helicopters - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item61
+		{
+			className="ace_rearm";
+			name="ACE3 - Rearm";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
 		};
 	};
 };
@@ -13788,7 +13804,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=433;
+		items=435;
 		class Item0
 		{
 			dataType="Object";
@@ -41326,6 +41342,86 @@ class Mission
 			};
 			id=1167;
 			type="EmptyDetector";
+		};
+		class Item433
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16523.678,22.184387,6240.874};
+				angles[]={0,4.1087842,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{this enableSimulation false;}";
+			};
+			id=1179;
+			type="B_Slingload_01_Ammo_F";
+			atlOffset=194.55499;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_featureType";
+					expression="_this setFeatureType parseNumber (_value)";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item434
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16541.191,22.209427,6232.8828};
+				angles[]={0,5.6188607,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{this enableSimulation false;}";
+			};
+			id=1180;
+			type="B_Slingload_01_Ammo_F";
+			atlOffset=192.724;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_featureType";
+					expression="_this setFeatureType parseNumber (_value)";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
