@@ -80,6 +80,9 @@ _heloList = [
 				["RHS_CH_47F_light",1],
 				["RHS_CH_47F_10",1],
 				
+			
+				["RHS_AH1Z",1],
+				
 				["RHS_AH64D",1],		
 				["RHS_AH64DGrey",1],
 				

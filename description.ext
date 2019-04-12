@@ -85,6 +85,25 @@ class Params
 	};
 };
 
+class ACE_Settings {
+    class ace_pylons_enabled {
+        value = 1;
+        typeName = "BOOL";
+    };
+    class ace_pylons_rearmNewPylons {
+        value = 1;
+        typeName = "BOOL";
+    };
+
+    class ace_pylons_requireEngineer {
+        value = 0;
+        typeName = "BOOL";
+    };
+    class ace_pylons_requireToolkit {
+        value = 0;
+        typeName = "BOOL";
+    };
+};
 
 //CORPSE AND WRECK MANAGEMENT - is disabled by default
 //********************************************************************
