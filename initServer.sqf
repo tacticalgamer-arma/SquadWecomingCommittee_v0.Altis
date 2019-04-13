@@ -11,7 +11,7 @@
 _enableACEarsenals = true;              //BOOLEAN
                                                                                            //**
 //if _enableACEarsenals is FALSE then _boxesToLoad = [];                                     **
-_boxesToLoad = [ammoBox, ammoBox_1, ammoBox_2, ammoBox_3];   //edit this line
+_boxesToLoad = [ammoBox, ammoBox_1, ammoBox_2, ammoBox_3, ammoboxSlingable];   //edit this line
 /**********************************************************************************************/
 
 

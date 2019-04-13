@@ -204,7 +204,7 @@ if (!_playersWillRespawnOnStart) then {
 };
 
 //set a variable to record the side of this player as when incapacitated you may be set to civilian side
-player setVariable ["sideOfThisPlayer", side player, true];
+player setVariable ["sideOfThisPlayer", WEST, true];
 //systemChat format ["You are on the %1 side.", sideOfThisPlayer];
 
 

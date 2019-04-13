@@ -8,22 +8,22 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1173;
+		nextID=1177;
 	};
 	class MarkerIDProvider
 	{
-		nextID=8;
+		nextID=16;
 	};
 	class LayerIndexProvider
 	{
-		nextID=48;
+		nextID=51;
 	};
 	class Camera
 	{
-		pos[]={11145.195,78.625832,9511.9834};
-		dir[]={0.59545487,-0.8012538,-0.058623563};
-		up[]={0.7973969,0.59832788,-0.078505106};
-		aside[]={-0.097978823,3.3900142e-007,-0.99519295};
+		pos[]={16495.779,60.451515,6352.2485};
+		dir[]={-0.67252755,-0.6136384,0.4138256};
+		up[]={-0.52264321,0.78956318,0.32159534};
+		aside[]={0.52408803,1.0581862e-006,0.8517167};
 	};
 };
 binarizationWanted=0;
@@ -113,13 +113,15 @@ addons[]=
 	"rhsusf_sounds",
 	"A3_Modules_F_Curator_Misc",
 	"A3_Air_F_Jets_Plane_Fighter_04",
-	"A3_Air_F_Orange_UAV_06"
+	"A3_Air_F_Orange_UAV_06",
+	"A3_Supplies_F_Heli_CargoNets",
+	"A3_Ui_F_Orange"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=60;
+		items=62;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -537,6 +539,20 @@ class AddonsMetaData
 		{
 			className="A3_Air_F_Orange";
 			name="Arma 3 Orange - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item60
+		{
+			className="A3_Supplies_F_Heli";
+			name="Arma 3 Helicopters - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item61
+		{
+			className="A3_Ui_F_Orange";
+			name="Arma 3 Orange - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -13788,7 +13804,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=433;
+		items=436;
 		class Item0
 		{
 			dataType="Object";
@@ -29742,8 +29758,8 @@ class Mission
 			dataType="Marker";
 			position[]={16101.615,0.061999999,6019.2148};
 			name="repairChopper";
+			text="Repair Chopper";
 			type="b_maint";
-			colorName="ColorYellow";
 			id=951;
 			atlOffset=193.66891;
 		};
@@ -41326,6 +41342,112 @@ class Mission
 			};
 			id=1167;
 			type="EmptyDetector";
+		};
+		class Item433
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16464.16,24.347582,6341.6528};
+				angles[]={-0,5.6665292,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="ammoboxSlingable";
+			};
+			id=1174;
+			type="B_CargoNet_01_ammo_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_rearm_rearmCargo";
+					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=999999;
+						};
+					};
+				};
+				nAttributes=3;
+			};
+		};
+		class Item434
+		{
+			dataType="Marker";
+			position[]={15907.591,0,6324.1152};
+			name="ammoboxSlingable";
+			text="Ammunition";
+			type="b_Ordnance";
+			id=1175;
+			atlOffset=201.97266;
+		};
+		class Item435
+		{
+			dataType="Trigger";
+			position[]={16385.055,0.00024414063,6373.9561};
+			class Attributes
+			{
+				name="serverAmmoMarker";
+				condition="call{true}";
+				onActivation="call{""ammoboxSlingable"" setMarkerPos (getPos ammoboxSlingable);}";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={1,1,1};
+				isServerOnly=1;
+			};
+			id=1176;
+			type="EmptyDetector";
+			atlOffset=168.73999;
 		};
 	};
 	class Connections
